@@ -1,0 +1,122 @@
+
+#about{
+    display: flex;
+    width: 100%;
+    border-top: 2px solid rgba(0, 0, 0, 0.075);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.075);
+    /* background-color: #c1d0e0; */
+}
+.container-about {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    font-size: 2rem;
+    justify-content: center;
+    /* scroll-margin-top: 10vh; */
+    font-family: "Quicksand", serif;
+}
+.child-title {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;   
+}
+.container-text {
+    display: flex;
+    flex-direction: column;
+    
+    /* background-color: #5c96cc3a;
+    border: 10px solid #5c96cc38;
+    border-radius: 20px; */
+    /* max-width: 900px; */
+    width: 100%;
+    padding: 30px;
+    gap: 30px;
+    overflow: hidden;
+
+}
+.container-text {
+    text-align: justify;
+}
+.profile-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+.profile-info img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 20px;
+    /* margin-bottom: 20px; */
+    object-fit: cover;
+    
+}
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    gap: 20px;
+}
+/* @media (max-width: 480px) {
+    #about{
+        padding: 15px 5px;
+    }
+    .child-title{
+        font-size: 2rem;
+    }
+
+    .container-about {
+        font-size: 1.3rem;
+        height: 100%;
+    }
+    .profile-info img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    #about{
+        padding: 20px 13px;
+    }
+
+    .container-about {
+        font-size: 1.5rem;
+        height: 100%;
+        margin-top: 2vh;
+    }
+    .profile-info img {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #about{
+        padding: 20px;
+    }
+    .container-about {
+        font-size: 1.7rem;
+        height: 100%;
+    }
+    .profile-info img {
+        height: 100px;
+        width: 100px;
+    }
+}
+@media (min-width: 1025px) {
+    #about{
+        padding: 20px;
+    }
+    .container-about {
+        font-size: 1.8rem;
+        height: 100%;
+    }
+    .profile-info img {
+        height: 100px;
+        width: 100px;
+    }
+    .container-text {
+        padding: 70px;
+    }
+} */

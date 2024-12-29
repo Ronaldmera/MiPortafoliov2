@@ -1,0 +1,176 @@
+/* Contenedor principal */
+#portafolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", serif;
+    margin: 50px 0;
+    padding: 20px;
+    background-color: #c1d0e0;
+    min-height: 70vh;
+}
+
+#portafolio h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(52, 52, 52);
+    margin-bottom: 30px;
+}
+
+/* Contenedor de proyectos */
+.container-port {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Tarjeta del proyecto */
+.items-port {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(82, 137, 221, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    background-color: #dfe4eb;
+}
+
+/* Efecto hover */
+.items-port:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen del proyecto */
+.project-image img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0.8;
+    margin-bottom: 15px;
+    transition: opacity 0.3s ease;
+}
+
+.project-image img:hover {
+    opacity: 1;
+}
+
+/* Contenido de la tarjeta */
+.project-content h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.project-content p {
+    font-size: 1.5rem;
+    color: rgb(100, 100, 100);
+    margin-bottom: 15px;
+}
+
+/* Enlace a GitHub */
+.project-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #5c96cc;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #0b57d0;
+}
+@media (max-width: 480px) {
+    #portafolio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Quicksand", serif;
+        margin: 22px 0;
+    }
+    #portafolio  h1 {
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .container-port {
+        gap: 10px;
+    }
+    .project-image img {
+        height: 50px;
+        width: 50px;
+    }
+    .project-content h2 {
+        font-size: 1.5rem;
+        margin-bottom: 7px;
+    }
+    .project-content p {
+        font-size: 1.2rem;
+        color: rgb(100, 100, 100);
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #portafolio  {
+        margin: 22px 0;
+    }
+    #portafolio  h1 {
+        font-size: 2.2rem;
+        margin-top: 30px;
+        /* margin-bottom: 20px; */
+    }
+    .items-port {
+        /* max-width: 500px; */
+    }
+    .container-port {
+        gap: 15px;
+    }
+    .project-image img {
+        height: 60px;
+        width: 60px;
+    }
+    .project-content h2 {
+        font-size: 1.7rem;
+    }
+    .project-content p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #portafolio  {
+        /* margin: 22px 0; */
+    }
+    #portafolio  h1 {
+        font-size: 2.5rem;
+        /* margin-top: 30px; */
+        /* margin-bottom: 20px; */
+    }
+    .items-port {
+        /* max-width: 500px; */
+    }
+    .container-port {
+        gap: 22px;
+    }
+    .project-image img {
+        height: 75px;
+        width: 75px;
+    }
+    .project-content h2 {
+        font-size: 1.9rem;
+    }
+    .project-content p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+}
