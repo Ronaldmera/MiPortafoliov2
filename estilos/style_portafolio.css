@@ -5,10 +5,12 @@
     justify-content: center;
     align-items: center;
     font-family: "Quicksand", serif;
-    margin: 50px 0;
+    /* margin: 50px 0; */
     padding: 20px;
-    background-color: #c1d0e0;
+    /* background-color: #c1d0e0; */
     min-height: 70vh;
+    background-color: rgb(189, 212, 221);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 #portafolio h1 {
@@ -37,7 +39,8 @@
     box-shadow: 0 4px 6px rgba(82, 137, 221, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     max-width: 300px;
-    background-color: #dfe4eb;
+    /* background-color: #dfe4eb; */
+    background-color: rgba(255, 255, 255, 0.692);
 }
 
 /* Efecto hover */
@@ -93,7 +96,7 @@
         justify-content: center;
         align-items: center;
         font-family: "Quicksand", serif;
-        margin: 22px 0;
+     
     }
     #portafolio  h1 {
         font-size: 2rem;
@@ -120,7 +123,7 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
     #portafolio  {
-        margin: 22px 0;
+        
     }
     #portafolio  h1 {
         font-size: 2.2rem;

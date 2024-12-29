@@ -9,6 +9,7 @@
     width: 100%;
     position: relative;
     padding: 20px;
+    background: linear-gradient(to bottom, #7babd8, #d2e3eb); /* Azul oscuro, gris y naranja */
 }
 #index section {
     height: 100vh;
@@ -47,8 +48,9 @@ section .left {
     color: var(--colortextos);
 }
 .info span {
-    color: rgb(43, 117, 201);
+    color: rgb(16, 83, 158);
     font-size: 2.5rem;
+    font-weight: bolder;
 }
 .icons {
     display: flex;
