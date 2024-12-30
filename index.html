@@ -12,12 +12,21 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
     />
-    <!-- script libreria-->
+    <!-- script libreria header-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
+
+    <!-- script libreria  AOS (Animate On Scroll)-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
     <!-- script js-->
     <script src="script/transition.js" defer></script>
     <script src="script/animation.js" defer></script>
+    <script src="script/transition2.js" defer></script>
 
     <link rel="stylesheet" href="estilos/style_global.css" />
     <link rel="stylesheet" href="estilos/style_header.css" />
@@ -101,7 +110,7 @@
         </section>
       </section>
       <!-- about-->
-      <section id="about">
+      <section id="about" data-aos="fade-up">
         <div class="container-about">
           <div class="container-text">
             <h2 class="child-title">Sobre Mi</h2>
@@ -157,35 +166,35 @@
         <div class="skills-complete">
           <h2>Habilidades</h2>
           <div class="skills-container">
-            <div class="skill">
+            <div class="skill" data-aos="fade-up">
               <h3>Trabajo en Equipo</h3>
               <p>
                 Disfruto colaborar con otras personas, aportando ideas y sumando
                 esfuerzos para alcanzar metas compartidas de manera efectiva.
               </p>
             </div>
-            <div class="skill">
+            <div class="skill" data-aos="fade-up">
               <h3>Organización</h3>
               <p>
                 Planifico y gestiono tareas cuidadosamente, asegurándome de
                 cumplir con plazos y mantener un flujo de trabajo ordenado.
               </p>
             </div>
-            <div class="skill">
+            <div class="skill" data-aos="fade-up">
               <h3>Escucha Activa</h3>
               <p>
                 Me esfuerzo por entender las ideas y necesidades de los demás,
                 promoviendo una comunicación abierta y efectiva.
               </p>
             </div>
-            <div class="skill">
+            <div class="skill" data-aos="fade-up">
               <h3>Colaboración</h3>
               <p>
                 Me adapto fácilmente a diferentes entornos y equipos, siempre
                 buscando aportar al logro de objetivos comunes.
               </p>
             </div>
-            <div class="skill">
+            <div class="skill" data-aos="fade-up">
               <h3>Aprendizaje Continuo</h3>
               <p>
                 Estoy constantemente explorando nuevas tecnologías y métodos
@@ -194,9 +203,9 @@
             </div>
           </div>
         </div>
-        <!-- portafolio-->
       </section>
-      <section id="portafolio">
+
+      <section id="portafolio" data-aos="fade-up">
         <h1>Proyectos</h1>
         <div class="container-port">
           <div class="items-port">
@@ -220,7 +229,7 @@
         </div>
       </section>
       <!-- contacto-->
-      <section id="contact">
+      <section id="contact" data-aos="fade-up">
         <div class="contact_container">
           <h2>Gracias Por Visitarme...</h2>
           <img src="imagenes/contact/grac.png" alt="" />
