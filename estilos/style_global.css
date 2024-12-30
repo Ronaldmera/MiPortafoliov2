@@ -12,6 +12,8 @@ body {
     min-height: 100vh;
     /* background-color:#e2e5e7; */
     flex: 1;  
+    background: linear-gradient(to bottom, #7babd8, white); 
+    background-repeat: no-repeat;
 }
 
 footer{

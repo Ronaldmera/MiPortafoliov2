@@ -8,11 +8,7 @@
     font-family: "Quicksand", serif;
     height:auto;
     align-items: center;
-
-    /* scroll-margin-top: 12vh; */
-
     border-bottom: 2px solid rgba(0, 0, 0, 0.075);
-    background-color: rgba(200, 225, 236, 0.438);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 .skills-complete{
@@ -45,6 +41,7 @@
 #soft-skills h2 {
     font-size: 3rem;
     margin-bottom: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .skill h3 {
@@ -82,8 +79,6 @@
         margin-top: 0vh;
     }
     #soft-skills h2 {
-        /* display: flex;
-        justify-content: center; */
         font-size: 2rem;
     }
 
@@ -117,6 +112,9 @@
 @media (min-width: 481px) and (max-width: 768px) {
     #soft-skills {
     }
+    #soft-skills h2 {
+        font-size: 2.2rem;
+    }
     .skills-container {
         grid-template-columns: 1fr 1fr;
     }
@@ -131,6 +129,9 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+    #soft-skills h2 {
+        font-size: 2.7rem;
+    }
     .skills-container {
         grid-template-columns: 1fr 1fr 1fr;
     }

@@ -9,7 +9,7 @@
     width: 100%;
     position: relative;
     padding: 20px;
-    background: linear-gradient(to bottom, #7babd8, #d2e3eb); /* Azul oscuro, gris y naranja */
+    background: linear-gradient(to bottom, #7babd8, white); /* Azul oscuro, gris y naranja */
 }
 #index section {
     height: 100vh;

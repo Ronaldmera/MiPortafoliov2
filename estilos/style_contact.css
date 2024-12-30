@@ -3,10 +3,6 @@
     text-align: center;
     font-family: quicksand;
     height: auto;
-    /* margin-top: 15vh; */
-    background-color: rgba(200, 225, 236, 0.438);
-    
-    
 }
 
 .contact_container {
@@ -18,7 +14,7 @@
    
 }
 .contact_container img{
-    align-self: center; /* Centra la imagen horizontalmente en un contenedor flex */
+    align-self: center; 
     height: 200px;
     width: 200px;
 }
