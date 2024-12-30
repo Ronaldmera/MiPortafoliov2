@@ -84,8 +84,8 @@
 
     .skills-container {
         display: flex;
-        flex-direction: grid;
-        grid-template-columns: 1fr 1fr;
+        /* flex-direction: grid;
+        grid-template-columns: 1fr 1fr; */
         gap: 15px;
     }
     .skill{
@@ -93,6 +93,7 @@
         flex-direction: column;
         width: 300px;
         padding: 10px;
+        
         
     }
     .skill h3 {
@@ -105,7 +106,8 @@
 
     .skill p {
         font-size: 1.4rem;
-        text-align:left;
+        /* text-align:left; */
+        margin-top: 0;
     }
 }
 
