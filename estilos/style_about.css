@@ -18,9 +18,19 @@
     font-family: "Quicksand", serif;
 }
 .child-title {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-size: 3rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: #5c96cc;
+}
+.child-title::after{
+    content: '👨‍💻';
+    color:  #5c96cc;
+    text-shadow: 1px 1px 5px #5c96cc;
+    font-style: normal;
 }
 .container-text {
     display: flex;

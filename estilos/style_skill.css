@@ -37,11 +37,21 @@
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+/*titulo de la seccion habilidades*/
 #soft-skills h2 {
+    display: flex;
+    flex-direction: column;
     font-size: 3rem;
     margin-bottom: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: #5c96cc;
+}
+#soft-skills h2::after{
+    content: '🌱';
+    color:  #5c96cc;
+    text-shadow: 1px 1px 5px #5c96cc;
+    font-style: normal;
 }
 
 .skill h3 {
