@@ -2,11 +2,8 @@
 #about{
     display: flex;
     width: 100%;
-    border-top: 2px solid rgba(0, 0, 0, 0.075);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.075);
-    /* background-color: #c1d0e0; */
-    /* background-color: #d2e3eb; */
-    box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.3);
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ffff,#d8e3ec);
 }
 .container-about {
     display: flex;
@@ -65,9 +62,10 @@
 }
 @media (max-width: 480px) {
     #about{
-        padding: 15px 5px;
-        /* margin-top: 10vh; */
+        padding: 10px 0px;
         position: relative;
+        top: -1px;
+        height: auto;
     }
     .profile-info{
         display: flex;
@@ -96,7 +94,8 @@
 
 @media (min-width: 480px) and (max-width: 768px) {
     #about{
-        padding: 20px 13px;
+        padding: 20px 8px;
+        height: auto;
     }
 
     .container-about {
@@ -125,6 +124,7 @@
 @media (min-width: 769px) and (max-width: 1024px) {
     #about{
         padding: 20px;
+        height: auto;
     }
     .container-about {
         font-size: 1.7rem;

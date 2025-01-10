@@ -8,8 +8,7 @@
     font-family: "Quicksand", serif;
     height:auto;
     align-items: center;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.075);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
 }
 .skills-complete{
     display: flex;
