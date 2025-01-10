@@ -3,7 +3,8 @@
     display: flex;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #ffff,#d8e3ec);
+    /* background: linear-gradient(to bottom, #ffff,#d8e3ec); */
+    background-color:#8fc6da54;
 }
 .container-about {
     display: flex;
@@ -21,7 +22,7 @@
     font-size: 3rem;
     font-family:'Times New Roman', Times, serif;
     font-style: oblique;
-    color: #5c96cc;
+    color: #7aa2c6bb
 }
 .child-title::after{
     content: '👨‍💻';
@@ -50,8 +51,9 @@
 .profile-info img {
     max-width: 500px;
     max-height: 500px;
-    border-radius: 20px;
+    border-radius: 10px;
     object-fit: cover;
+    box-shadow: 0px 0px 1px rgba(149, 189, 250, 0.37);
     
 }
 .profile-text {

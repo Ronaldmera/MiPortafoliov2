@@ -1,15 +1,27 @@
-
 #soft-skills {
-    padding: 5px 40px;
-    /* margin-top: 2vh; */
+    /* padding: 5px 40px; */
     display: flex;
     flex-direction: column;
     width: 100%;
     font-family: "Quicksand", serif;
-    height:auto;
+    height: auto;
     align-items: center;
-
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #eff3f5;
 }
+
+/* #soft-skills picture {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#soft-skills picture img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+} */
 .skills-complete{
     display: flex;
     flex-direction: column;
@@ -18,7 +30,18 @@
     justify-content: center;
     margin-top: 7vh;
     margin-bottom: 7vh;
-    
+    position: relative;
+    z-index: 3;
+}
+.skills-complete img{
+    display: flex;
+    max-height: 500px;
+    max-width: 500px;
+    border-radius: 9px;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px #83acd3;
 }
 
 .skills-container {
@@ -26,6 +49,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 0 20px;
+ 
 }
 
 .skill {
@@ -44,7 +69,8 @@
     margin-bottom: 30px;
     font-family:'Times New Roman', Times, serif;
     font-style: oblique;
-    color: #5c96cc;
+    color: #83acd3;
+    z-index: 4;
 }
 #soft-skills h2::after{
     content: '🌱';
@@ -89,13 +115,16 @@
     }
     #soft-skills h2 {
         font-size: 2rem;
+        position: relative;
     }
 
     .skills-container {
         display: flex;
-        /* flex-direction: grid;
-        grid-template-columns: 1fr 1fr; */
         gap: 15px;
+    }
+    .skills-complete img{
+        max-height: 200px;
+        max-width: 200px;
     }
     .skill{
         display: flex;
@@ -115,7 +144,7 @@
 
     .skill p {
         font-size: 1.4rem;
-        /* text-align:left; */
+  
         margin-top: 0;
     }
 }
@@ -128,6 +157,10 @@
     }
     .skills-container {
         grid-template-columns: 1fr 1fr;
+    }
+    .skills-complete img{
+        max-height: 300px;
+        max-width: 300px;
     }
 
     .skill h3 {
@@ -145,6 +178,10 @@
     }
     .skills-container {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .skills-complete img{
+        max-height: 400px;
+        max-width: 400px;
     }
 
     .skill h3 {
