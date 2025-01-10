@@ -22,7 +22,7 @@
     font-size: 3rem;
     font-family:'Times New Roman', Times, serif;
     font-style: oblique;
-    color: #7aa2c6bb
+    color: #4a90e2;
 }
 .child-title::after{
     content: '👨‍💻';
@@ -74,7 +74,7 @@
         flex-direction: column;
     }
     .child-title{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .container-about {
@@ -109,7 +109,7 @@
         flex-direction: column;
     }
     .child-title{
-        font-size: 2.2rem;
+        font-size: 2.8rem;
     }
     .profile-text {
         display: flex;
@@ -133,7 +133,7 @@
         height: 100%;
     }
     .child-title{
-        font-size: 2.7rem;
+        font-size: 3rem;
     }
     .profile-text {
         display: flex;
@@ -153,6 +153,9 @@
     .container-about {
         font-size: 1.8rem;
         height: 100%;
+    }
+    .child-title{
+        font-size: 3.5rem;
     }
     .profile-info img {
        max-width: 500px;

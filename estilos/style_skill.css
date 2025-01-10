@@ -69,7 +69,7 @@
     margin-bottom: 30px;
     font-family:'Times New Roman', Times, serif;
     font-style: oblique;
-    color: #83acd3;
+    color: #4a90e2;;
     z-index: 4;
 }
 #soft-skills h2::after{
@@ -114,7 +114,7 @@
         margin-top: 0vh;
     }
     #soft-skills h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         position: relative;
     }
 
@@ -153,7 +153,7 @@
     #soft-skills {
     }
     #soft-skills h2 {
-        font-size: 2.2rem;
+        font-size: 2.8rem;
     }
     .skills-container {
         grid-template-columns: 1fr 1fr;
@@ -174,7 +174,7 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
     #soft-skills h2 {
-        font-size: 2.7rem;
+        font-size: 3rem;
     }
     .skills-container {
         grid-template-columns: 1fr 1fr 1fr;
@@ -194,6 +194,9 @@
 }
 
 @media (min-width: 1025px) {
+    #soft-skills h2 {
+        font-size: 3.5rem;
+    }
     .skills-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
