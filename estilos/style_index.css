@@ -7,6 +7,10 @@
     /* padding: 20px; */
     /* background: linear-gradient(to bottom, #7babd8, white); */
 }
+picture{
+    max-width: 100%;
+    max-height: 100%;
+}
 #index picture img{
     position: absolute;
     width: 100%;
