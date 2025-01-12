@@ -17,6 +17,11 @@
     align-self: center; 
     height: 200px;
     width: 200px;
+   
+}
+.hand{
+    filter: drop-shadow(10px 10px 5px rgba(58, 126, 204, 0.541));/*agrega sombra a una imagen con fondo transparente*/
+
 }
 
 .contact_container h2 {
