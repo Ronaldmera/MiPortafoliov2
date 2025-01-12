@@ -5,6 +5,7 @@
     font-family: "Quicksand", serif;
     padding: 20px;
     min-height: 90vh;
+    background-color:#8fc6da54;
 }
 
 #portafolio h1 {
@@ -49,7 +50,7 @@
     max-width: 280px;
     flex: 1;
     /* background: linear-gradient(145deg, #ffffff, #f1f5f9); */
-    background-color: #e3eaf1;
+    background-color: #fffffffb;
 }
 
 /* Efecto hover */
