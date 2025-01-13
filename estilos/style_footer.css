@@ -128,23 +128,14 @@ footer {
 
 /* Media Query: Pantallas extra grandes (1441px en adelante) */
 @media (min-width: 1441px) {
-    footer {
-        font-size: 1.8rem;
-        padding: 30px;
-        height: 29vh; /* Ajusta la altura en pantallas extra grandes */
-    }
-
-    .footer-container {
-        gap: 25px;
-    }
-
-    .links {
-        gap: 30px;
-    }
+  .links{
+    /* display: flex;
+    justify-content: center; */
+  }
 
     .links img {
         height: 30px;
-        width: 350px;
+        width: 30px;
     }
 }
 
