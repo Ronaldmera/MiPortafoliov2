@@ -3,7 +3,6 @@
     display: flex;
     width: 100%;
     min-height: 100vh;
-    /* background: linear-gradient(to bottom, #ffff,#d8e3ec); */
     background-color:#8fc6da54;
 }
 .container-about {
@@ -148,7 +147,8 @@
 }
 @media (min-width: 1024px) {
     #about{
-        padding: 20px;
+        padding: 0px 10%;
+        padding-top: 5%;
     }
     .container-about {
         font-size: 1.8rem;

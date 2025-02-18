@@ -194,10 +194,12 @@
 }
 
 @media (min-width: 1025px) {
+
     #soft-skills h2 {
         font-size: 3.5rem;
     }
     .skills-container {
+        padding: 0px 15%;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
