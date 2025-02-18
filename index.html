@@ -22,6 +22,7 @@
   <script src="script/transition.js" defer></script>
   <script src="script/animation.js" defer></script>
   <script src="script/transition2.js" defer></script>
+  <script src="script/hamburger.js" defer></script>
 
   <link rel="stylesheet" href="estilos/style_global.css" />
   <link rel="stylesheet" href="estilos/style_header.css" />
@@ -38,12 +39,17 @@
     <div class="container">
       <div class="title">Portafolio</div>
       <nav>
-        <div class="items">
-          <a href="#index">Home</a>
-          <a href="#about">Sobre mi</a>
-          <a href="#soft-skills">Habilidades</a>
-          <a href="#portafolio">Portafolio</a>
-          <a href="#contact">Contacto</a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#index">Inicio</a></li>
+          <li><a href="#about">Sobre mi</a></li>
+          <li><a href="#soft-skills">Habilidades</a></li>
+          <li><a href="#portafolio">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <div class="hamburguer" id="hamburguer">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
       </nav>
     </div>
